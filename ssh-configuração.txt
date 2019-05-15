@@ -1,0 +1,11 @@
+# para criar um arquivo com as chaves ssh com acesso a root:
+
+sudo su 
+
+ssh-keygen -t rsa ; isso irá gerar a pasta .ssh na pasta /root/ 
+
+touch authorized_keys
+
+insira no arquivo a chave publica da maquina que deve ter acesso a root 
+
+
